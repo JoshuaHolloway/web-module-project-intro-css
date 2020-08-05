@@ -25,6 +25,13 @@ h1 {
     font-family: 'Chelsea Market', cursive;
 }
 
+
+nav {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
 nav :nth-child(1) { background: #FF764E; }
 nav :nth-child(2) { background: #5ED3EB; }
 nav :nth-child(3) { background: #FFCD69; }
@@ -56,9 +63,8 @@ nav :nth-child(3) { background: #FFCD69; }
 
 }
 
-
 footer {
-    /* * Color the background of the footer with #F9E7DC */
+    /* Color the background of the footer with #F9E7DC */
     background-color: #F9E7DC;
 }
 
