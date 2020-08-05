@@ -9,6 +9,8 @@
     max-width: 100%; /* No horizontal scroll bar! */
     font-family: 'Roboto Mono', monospace;
     border: solid 1px gray; /* debug */
+
+
 }
 h1 {
     font-family: 'Chelsea Market', cursive;
@@ -29,6 +31,11 @@ nav :nth-child(3) { background: #FFCD69; }
     text-decoration: none;
 }
 
+#Section-about {
+    /* Color the background of the main text body with #DDB9A3 */
+    background: #DDB9A3;
+}
+
 #Section-features {
     
 }
@@ -41,10 +48,10 @@ nav :nth-child(3) { background: #FFCD69; }
 
 }
 
-/* * Change all font colors and styles according to design file */
-    /* * Yosemite Park Guide font is called Chelsea Market and can be found on google fonts */
-    /* * All other text is Roboto Mono, also available on google fonts */
-/* * Color the background of the main text body with #DDB9A3 */
+
+
+
+
 /* * Color the background of the footer with #F9E7DC */
 /* * Bold the words "current fire restrictions" and "park entrance fee" according to the design file */
 /* * Apply box model properties (content, padding, margin, and border) to all content such that your webpage matches the design file. This will include at least: */
