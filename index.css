@@ -1,0 +1,35 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    max-width: 100%; /* No horizontal scroll bar! */
+    font-family: 'Courier New', Courier, monospace;
+    border: solid 1px gray; /* debug */
+}
+
+nav :nth-child(1) { background: #FF764E; }
+nav :nth-child(2) { background: #5ED3EB; }
+nav :nth-child(3) { background: #FFCD69; }
+
+.Nav-link {
+    display: inline-block;
+    /* background: red; */
+    border-radius: 25%;
+    /* width: 100px; */
+    height: 100px;
+    border: solid green 5px;
+    padding: 30px;
+    text-decoration: none;
+}
+
+#Section-features {
+    
+}
+
+#Section-features img {
+    height: 256px;
+    display: block;
+}
+#Section-features p {
+}
