@@ -53,14 +53,26 @@ nav :nth-child(3) { background: #FFCD69; }
 /* --------------------------------------- */
 /* --------------header------------------- */
 /* --------------------------------------- */
-
 header {
     height: var(--section-2_height);   
     padding: 30px;
+    display: flex;
 }
 header img {
     height: 100%;
-    width: var(--img-width);
     border-radius: 50%;
     display: inline-block;
 }
+#Hero-headings {
+    border: solid red 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#Hero-headings > h1 {
+
+}
+
+
