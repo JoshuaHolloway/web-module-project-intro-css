@@ -60,6 +60,8 @@ header img {
     position: absolute;
     /* height: 100%; */
     width: calc(100% - var(--img-width) - 2 * var(--hero-heading-padding));
+
+    margin: 0 auto;
 }
 
 h1 {
