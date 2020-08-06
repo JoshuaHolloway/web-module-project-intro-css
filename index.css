@@ -96,14 +96,15 @@ header img {
 #Section-about {
     background: #DDB9A3;
     color: white;
-    padding: 10px 40px;
+    padding: 2% 3%;
     margin: 0 5%;
+    text-align: center;
 }
 #Section-about > p {
     border: var(--debug-border-2);
 }
 #Section-about > p:nth-child(1) {
-    margin-bottom: 1%;
+    margin-bottom: 2.5%;
 }
 
 /* --------------------------------------- */
