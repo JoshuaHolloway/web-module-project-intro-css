@@ -8,7 +8,9 @@
     box-sizing: border-box; 
     max-width: 100%; /* No horizontal scroll bar! */
     font-family: 'Roboto Mono', monospace;
-    border: solid 1px gray; /* debug */
+
+    /* debug */
+    /* border: solid 1px gray;  */
 }
 
 /* general (global) style */
