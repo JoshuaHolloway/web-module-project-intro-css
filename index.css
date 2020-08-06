@@ -84,3 +84,9 @@ header img {
     padding: 10px 40px;
     margin: 0 5%;
 }
+#Section-about p {
+    border: solid 2px green;
+}
+#Section-about p:nth-child(1) {
+    margin-bottom: 1%;
+}
