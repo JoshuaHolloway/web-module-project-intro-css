@@ -120,3 +120,12 @@ header img {
 footer {
     background-color: #F9E7DC;
 }
+
+#Near-footer-hero > .img-container {
+    background-image: url("./assets/footer_img.jpg");
+    height: 175px;
+    width: 100%;
+    background-size: cover;
+    background-position-y: -60px;
+    background-repeat: no-repeat;
+}
