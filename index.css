@@ -1,5 +1,15 @@
 /* https://fonts.google.com/specimen/Roboto+Mono?query=Roboto+Mono&sidebar.open=true&selection.family=Chelsea+Market|Roboto+Mono */
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap');
+:root {
+    /* --debug-border-0: solid 1px grey; */
+    --debug-border-0: none;
+    /* --debug-border-1: solid 1px red; */
+    --debug-border-1: none;
+    /* --debug-border-2: solid 1px green; */
+    --debug-border-2: none;
+    /* --debug-border-3: solid 1px blue; */
+    --debug-border-3: none;
+}
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +18,8 @@
     font-family: 'Roboto Mono', monospace;
 
     /* debug */
-    border: solid 1px gray; 
+    /* border: solid 1px gray;  */
+    border: var(--debug-border-0);
 }
 html {
     font-size: 62.5%;
@@ -59,7 +70,7 @@ header img {
     display: inline-block;
 }
 #Hero-headings {
-    border: solid red 5px;
+    border: var(--debug-border-1);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -89,7 +100,7 @@ header img {
     margin: 0 5%;
 }
 #Section-about > p {
-    border: solid 2px green;
+    border: var(--debug-border-2);
 }
 #Section-about > p:nth-child(1) {
     margin-bottom: 1%;
@@ -108,7 +119,7 @@ header img {
     align-items: center;
 
     /* debug */
-    border: solid blue 2px;
+    border: var(--debug-border-3);
 }
 #Section-features > .Feature:first-child {
     margin-bottom: 5%;
