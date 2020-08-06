@@ -1,3 +1,11 @@
+# Josh Deployed:
+* https://002-intro-css.netlify.app/
+
+# Josh Pull Request URL:
+https://github.com/JoshuaHolloway/web-module-project-intro-css/pull/1
+
+----------------------------------------------------------------------------
+
 # Intro CSS Module Project
 
 ## User Interface and Git
