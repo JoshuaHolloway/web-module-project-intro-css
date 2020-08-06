@@ -109,9 +109,6 @@ nav :nth-child(3) { background: #FFCD69; }
     height: 256px;
     display: block;
 }
-#Section-features p {
-
-}
 
 footer {
     background-color: #F9E7DC;
@@ -126,8 +123,5 @@ footer .img-container {
     background-image: url("./assets/footer_img.jpg");
     height: 400px;
     width: 100%;
+    background-size: cover;
 }
-
-
-/* * Centered content and margins around content */
-/* * Footer image positioning */
