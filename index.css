@@ -27,10 +27,11 @@ section {
     padding: 4% 0;
 }
 :root {
-    /* --button-padding: 5px; */
-    /* --button-width: 160px; */
     --img-width: 256px;
     --hero-heading-padding: 50px;
+    --base-nav-link-width: 150px;
+    --nav-link-padding: 8px;
+    --nav-link-width: calc(var(--base-nav-link-width) + var(--nav-link-padding));
 }
 
 .Center {
@@ -77,8 +78,8 @@ nav :nth-child(3) { background: #FFCD69; }
 .Nav-link {
     display: inline-block;
     border-radius: 15%;
-    width: 160px;
-    padding: 5px;
+    width: var(--nav-link-width);
+    padding: var(--nav-link-padding);
     text-decoration: none;
     color: white;
     margin: 0 150px;
@@ -88,6 +89,7 @@ nav :nth-child(3) { background: #FFCD69; }
     background: #DDB9A3;
     color: white;
     padding: 10px 40px;
+    margin: 0 5%;
 }
 #Section-about p:nth-child(1) {
     margin-bottom: 30px;
