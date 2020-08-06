@@ -17,7 +17,7 @@ html {
 }
 body {
     font-size: 1.6rem;
-    line-height: 1.5; /* multiple of font size */
+    line-height: 1.3; /* multiple of font size */
 }
 a {
     text-decoration: none;
@@ -93,8 +93,14 @@ nav :nth-child(3) { background: #FFCD69; }
     margin-bottom: 30px;
 }
 
-#Section-features {
-    
+.Feature img {
+    margin: 0 auto;
+    width: 180px;
+}
+.Feature p {
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 #Section-features img {
