@@ -10,26 +10,21 @@
     /* debug */
     border: solid 1px gray; 
 }
-:root {
-    /* nav */
-    /* --section-1_height: 300px; */
-
-    /* header */
-    --section-2_height: 300px; 
-
-    /* main */
-    /* --section-3_height: 300px;  */
-
-    /* footer */
-    /* --section-4_height: 300px;  */
+html {
+    font-size: 62.5%;
 }
-
+body {
+    font-size: 1.6rem;
+    line-height: 1.1; /* multiple of font size */
+    letter-spacing: 1px;
+}
 /* --------------------------------------- */
 /* --------------nav---------------------- */
 /* --------------------------------------- */
 nav {
     display: flex;
     justify-content: space-evenly;
+    padding: 20px;
 }
 
 nav :nth-child(1) { background: #FF764E; }
@@ -54,7 +49,7 @@ nav :nth-child(3) { background: #FFCD69; }
 /* --------------header------------------- */
 /* --------------------------------------- */
 header {
-    height: var(--section-2_height);   
+    height: 300px;
     padding: 30px;
     display: flex;
 }
@@ -72,7 +67,16 @@ header img {
 }
 
 #Hero-headings > h1 {
-
+    font-family: 'Chelsea Market', cursive;
+    font-size: 3.6rem;
+}
+#Hero-headings > h3 {
+    font-size: 1.6rem;
+}
+#Hero-headings > h4 {
+    font-size: 1.4rem;
+    width: 75%;
+    margin: 0 auto;
 }
 
 /* --------------------------------------- */
@@ -92,10 +96,10 @@ header img {
 }
 
 /* --------------------------------------- */
-/* --------main > #Section-about---------- */
+/* --------main > #Section-features------- */
 /* --------------------------------------- */
-#Section-feature {
-
+#Section-features {
+    margin: 2% 0 6% 0;
 }
 #Section-features > .Feature {
     /* text-align: center;    */
@@ -105,6 +109,9 @@ header img {
 
     /* debug */
     border: solid blue 2px;
+}
+#Section-features > .Feature:first-child {
+    margin-bottom: 5%;
 }
 #Section-features > .Feature > img {
     width: 20%;
@@ -116,11 +123,9 @@ header img {
 /* --------------------------------------- */
 /* ------------footer--------------------- */
 /* --------------------------------------- */
-
 footer {
     background-color: #F9E7DC;
 }
-
 #Near-footer-hero > .img-container {
     background-image: url("./assets/footer_img.jpg");
     height: 175px;
