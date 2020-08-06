@@ -38,8 +38,6 @@ section {
     text-align: center;     /* Horizontally */
     vertical-align: middle; /* Vertically */
 }
-
-
 header {
     height: 300px;   
     padding: 30px;
@@ -56,7 +54,6 @@ header img {
     padding: 50px;
     /* padding: 10%; */
 
-    
     position: absolute;
     /* height: 100%; */
     width: calc(100% - var(--img-width) - 2 * var(--hero-heading-padding));
@@ -84,6 +81,7 @@ nav :nth-child(3) { background: #FFCD69; }
     padding: 5px;
     text-decoration: none;
     color: white;
+    margin: 0 150px;
 }
 
 #Section-about {
