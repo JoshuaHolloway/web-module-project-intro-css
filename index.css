@@ -84,9 +84,31 @@ header img {
     padding: 10px 40px;
     margin: 0 5%;
 }
-#Section-about p {
+#Section-about > p {
     border: solid 2px green;
 }
-#Section-about p:nth-child(1) {
+#Section-about > p:nth-child(1) {
     margin-bottom: 1%;
+}
+
+/* --------------------------------------- */
+/* --------main > #Section-about---------- */
+/* --------------------------------------- */
+#Section-feature {
+
+}
+#Section-features > .Feature {
+    /* text-align: center;    */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* debug */
+    border: solid blue 2px;
+}
+#Section-features > .Feature > img {
+    width: 20%;
+}
+#Section-features > .Feature > p {
+    width: 30%;
 }
