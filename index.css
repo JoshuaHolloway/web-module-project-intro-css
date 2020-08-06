@@ -85,8 +85,12 @@ nav :nth-child(3) { background: #FFCD69; }
 }
 
 #Section-about {
-    /* Color the background of the main text body with #DDB9A3 */
     background: #DDB9A3;
+    color: white;
+    padding: 10px 40px;
+}
+#Section-about p:nth-child(1) {
+    margin-bottom: 30px;
 }
 
 #Section-features {
