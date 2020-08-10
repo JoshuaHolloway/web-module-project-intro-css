@@ -1,0 +1,159 @@
+/* https://fonts.google.com/specimen/Roboto+Mono?query=Roboto+Mono&sidebar.open=true&selection.family=Chelsea+Market|Roboto+Mono */
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap');
+:root {
+    /* --debug-border-0: solid 1px grey; */
+    --debug-border-0: none;
+    /* --debug-border-1: solid 1px red; */
+    --debug-border-1: none;
+    /* --debug-border-2: solid 1px green; */
+    --debug-border-2: none;
+    /* --debug-border-3: solid 1px blue; */
+    --debug-border-3: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    max-width: 100%; /* No horizontal scroll bar! */
+    font-family: 'Roboto Mono', monospace;
+
+    /* debug */
+    /* border: solid 1px gray;  */
+    border: var(--debug-border-0);
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    line-height: 1.1; /* multiple of font size */
+    letter-spacing: 1px;
+}
+/* --------------------------------------- */
+/* --------------nav---------------------- */
+/* --------------------------------------- */
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+nav :nth-child(1) { background: #FF764E; }
+nav :nth-child(2) { background: #5ED3EB; }
+nav :nth-child(3) { background: #FFCD69; }
+
+.Nav-link {
+    width: 150px;
+    border-radius: 10%;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* --------------------------------------- */
+/* --------------header------------------- */
+/* --------------------------------------- */
+header {
+    /* TODO: Un-Hard-Code! */
+    height: 300px;
+    padding: 30px 5%;
+
+    display: flex;
+}
+header img {
+    height: 100%;
+    border-radius: 50%;
+    display: inline-block;
+}
+#Hero-headings {
+    border: var(--debug-border-1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+#Hero-headings > h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 3.6rem;
+}
+#Hero-headings > h3 {
+    font-size: 1.6rem;
+}
+#Hero-headings > h4 {
+    font-size: 1.4rem;
+    width: 75%;
+    margin: 0 auto;
+}
+
+/* --------------------------------------- */
+/* --------main > #Section-about---------- */
+/* --------------------------------------- */
+#Section-about {
+    background: #DDB9A3;
+    color: white;
+    padding: 2% 3%;
+    margin: 0 5%;
+    text-align: center;
+}
+#Section-about > p {
+    border: var(--debug-border-2);
+}
+#Section-about > p:nth-child(1) {
+    margin-bottom: 2.5%;
+}
+
+/* --------------------------------------- */
+/* --------main > #Section-features------- */
+/* --------------------------------------- */
+#Section-features {
+    margin: 2% 0 6% 0;
+}
+#Section-features > .Feature {
+    /* text-align: center;    */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* debug */
+    border: var(--debug-border-3);
+}
+#Section-features > .Feature:first-child {
+    margin-bottom: 5%;
+}
+#Section-features > .Feature > img {
+    /* width: 20%; */
+
+    /* TODO: Un-hard-code! */
+    width: 128px;
+}
+#Section-features > .Feature > p {
+    width: 30%;
+    text-align: center;
+}
+
+/* --------------------------------------- */
+/* ------------footer--------------------- */
+/* --------------------------------------- */
+footer {
+    background-color: #F9E7DC;
+}
+#Near-footer-hero > .img-container {
+    background-image: url("./assets/footer_img.jpg");
+
+    /* TODO: Un-Hard-Code! */
+    height: 250px;
+    background-position-y: -200px;
+
+    width: 100%;
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+}

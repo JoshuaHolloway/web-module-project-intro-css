@@ -1,3 +1,20 @@
+# Josh Deployed:
+* https://002-intro-css.netlify.app/
+
+# Josh Pull Request URL:
+https://github.com/JoshuaHolloway/web-module-project-intro-css/pull/1
+
+# Josh Note:
+* Built website two ways:
+  * 1. Without flexbox
+    * index_non-flex.hmtl
+    * index_non-flex.css
+  * 2. With flexbox
+    * index.html
+    * index.css
+
+----------------------------------------------------------------------------
+
 # Intro CSS Module Project
 
 ## User Interface and Git
